@@ -89,6 +89,8 @@ Usage:
 
 Set object stringification to C<$str>.
 
+Caveats: cloned object currently will not inherit the stringification.
+
 =head2 unset_stringify
 
 Usage:
