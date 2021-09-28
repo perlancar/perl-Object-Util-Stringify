@@ -36,8 +36,6 @@ sub set_stringify {
 }
 
 sub unset_stringify {
-    require overload;
-
     my ($obj, $str) = @_;
 
     die "First argument must be a blessed reference" unless blessed($obj);
